@@ -237,24 +237,22 @@ body {
 
 /* Skills */
     #skills {
-        margin: 50px 0;
+        margin: 30px 0;
         background-color: rgb(0, 0, 0, 0.9);
-        padding: 50px 0;
+        padding: 30px 0;
+        transform: skewY(-3deg);
     }
     .skills-header {
         padding: 10px 0 50px 0;
         width: 100%;
-        background-color: rgb(3, 78, 83, 0.4);
-        background-blend-mode: screen;
         display: flex;
         flex-direction: column;
-        transform: skewY(-4deg);
         
     }
     .skills-header > p , .skills-header > h1{
         display: flex;
         justify-content: center;
-        transform: skewY(4deg);
+        transform: skewY(3deg);
         color: #E2DCC8;
         text-shadow: 4px 4px 6px rgb(0, 0, 0);
         font-family: 'Lora';
@@ -265,8 +263,7 @@ body {
         font-size: 50px;
     }
     .my-skills {
-        
-        margin-top: 100px;
+        transform: skewY(3deg);
         display: flex;
         justify-content: space-evenly;
     }
@@ -279,6 +276,8 @@ body {
         margin-top: 70px;
         display: flex;
         justify-content: space-evenly;
+        transform: skewY(3deg);
+        padding-bottom: 50px;
     }
         .myskills2 img {
             width: 250px;
