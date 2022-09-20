@@ -233,7 +233,7 @@ body {
         cursor: pointer;
         border-radius: 5px;
         transition: 0.2s;
-        font-size: max(1.5vw, 16px);
+        font-size: max(1.2vw, 16px);
 
     }
     #tab1:hover, #tab2:hover, #tab3:hover {
@@ -315,7 +315,7 @@ body {
         justify-content: space-evenly;
     }
         .my-skills img{
-            width: 250px;
+            width: max(18vw, 80px);
             cursor: pointer;
             transition: 0.2s;
         }
@@ -327,7 +327,7 @@ body {
         padding-bottom: 50px;
     }
         .myskills2 img {
-            width: 250px;
+            width: max(18vw, 80px);
             cursor: pointer;
             transition: 0.2s;
         }

@@ -9,7 +9,7 @@ function selectTab(tabIndex) {
   }
 
   function openNav() {
-    document.getElementById("mySidenav").style.width = "40%";
+    document.getElementById("mySidenav").style.width = "50%";
   }
   
   function closeNav() {
