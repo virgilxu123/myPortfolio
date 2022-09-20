@@ -31,6 +31,20 @@
         }
 /* Navigation bar */
 
+/* Home */
+    .my-img {
+        top: 15%;
+        right: 5%;
+    }
+    .my-img2{
+        top: 15.5%;
+        right: 5.5%;
+    }
+    .my-img3 {
+        display: none;
+    }
+/* Home */
+
 /* About */
         #about {
             flex-direction: column;

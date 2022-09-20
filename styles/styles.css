@@ -87,7 +87,7 @@ body {
     }
         .home-div1 h1 {
             padding-left: 25px;
-            font-size: 2.5vw;
+            font-size: calc(1.4vw + 7px);
             border-radius: 10px;
             background-color: rgba(5, 60, 65, 0.1);
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
