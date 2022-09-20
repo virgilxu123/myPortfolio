@@ -135,7 +135,7 @@ body {
         z-index: 1;
         border: 2px solid rgba(226, 220, 200, 0.9);
         box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.8);
-        min-width: 50px;
+        min-width: 100px;
     }
     
     .my-img2 {
@@ -145,7 +145,7 @@ body {
         right: 11.2%; 
         border: 2px solid rgba(226, 220, 200, 0.9);
         box-shadow: -5px 5px 6px rgba(0, 0, 0, 0.8);
-        min-width: 50px;
+        min-width: 100px;
     }
     .my-img3 {
         width: 20%;
@@ -154,7 +154,7 @@ body {
         right: 10.6%;
         border: 2px solid rgba(226, 220, 200, 0.9);
         box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.8);
-        min-width: 50px;
+        min-width: 100px;
     }
 /* Home */
 
