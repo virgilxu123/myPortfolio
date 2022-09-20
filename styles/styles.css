@@ -78,6 +78,7 @@ body {
         clip-path: polygon(0 0, 100% 0, 100% 85%, 60% 77%, 35% 97%, 0 86%);
         padding-top: 5%;
         overflow: hidden;
+        min-height: 300px;
     }
     .home-div1 {
         flex: 1;
@@ -87,7 +88,7 @@ body {
     }
         .home-div1 h1 {
             padding-left: 25px;
-            font-size: calc(1.4vw + 7px);
+            font-size: max(2.5vw, 18px);
             border-radius: 10px;
             background-color: rgba(5, 60, 65, 0.1);
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
