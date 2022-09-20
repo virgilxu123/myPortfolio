@@ -48,7 +48,7 @@
 /* About */
         #about {
             flex-direction: column;
-            
+            margin:50px 0 25px 0;
         }
         .about-div1 img {
             width: 80%;
@@ -58,6 +58,9 @@
         }   
         #tab1Content, #tab2Content, #tab3Content {
             width: 90%;
+        }
+        .CV-button p{
+            margin-bottom: 50px;
         }
 /* About */
     }
