@@ -32,17 +32,31 @@
 /* Navigation bar */
 
 /* Home */
-    .my-img {
-        top: 15%;
-        right: 5%;
-    }
-    .my-img2{
-        top: 15.5%;
-        right: 5.5%;
-    }
-    .my-img3 {
+    .my-img, .my-img3, .my-img2, .home-div2 {
         display: none;
     }
+    .my-images {
+        display: flex;
+        justify-content: center;
+    }
+        .my-images > .my-images1 {
+            width: 60%;
+            border: 2px solid rgba(226, 220, 200, 0.9);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+        }
+    #home {
+        display: flex;
+        flex-direction: column;
+        clip-path: none;
+    }
+    .home-div1 {
+        display: flex;
+        flex-direction: column;
+        padding: 25px 5%;
+    }
+        .home-div1 h1 {
+            padding: 25px 5%;
+        }
 /* Home */
 
 /* About */

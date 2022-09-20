@@ -125,7 +125,7 @@ body {
     }
         .home-div1 h1 {
             padding-left: 25px;
-            font-size: max(2.5vw, 20px);
+            font-size: max(2.5vw, 25px);
             border-radius: 10px;
             background-color: rgba(5, 60, 65, 0.1);
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -134,7 +134,7 @@ body {
         }
         .home-div1 p {
             float: right;;
-            font-size: max(1.8vw, 14px);
+            font-size: max(1.8vw, 20px);
             padding-top: 50px;
         }
         .home-div1 a {
@@ -164,6 +164,9 @@ body {
             height: auto;
             visibility: hidden;
         }
+    .my-images {
+        display: none;
+    }
 
     .my-img {
         width: 20%;
@@ -218,7 +221,7 @@ body {
     }   
         .about-div2 h1 {
             font-family: 'Lora';
-            font-size: max(2.5vw, 30px);
+            font-size: max(2.5vw, 32px);
         }
     .about-div2-innerdiv1 {
         display: flex;
