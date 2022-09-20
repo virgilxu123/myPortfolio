@@ -66,6 +66,9 @@ body {
             color: rgba(226, 220, 200, 0.9);
             background-image: linear-gradient(rgba(60, 138, 139, 0.9), rgba(15, 61, 62, 0.9));
         }
+    .menu-icon {
+        display: none;
+    }
 /* Navigation Bar */
 /* Home */  
     #home {
@@ -74,7 +77,7 @@ body {
         background-blend-mode: screen;
         clip-path: polygon(0 0, 100% 0, 100% 85%, 60% 77%, 35% 97%, 0 86%);
         padding-top: 5%;
-        min-height: 350px;
+        overflow: hidden;
     }
     .home-div1 {
         flex: 1;
@@ -84,6 +87,7 @@ body {
     }
         .home-div1 h1 {
             padding-left: 25px;
+            font-size: 2.5vw;
             border-radius: 10px;
             background-color: rgba(5, 60, 65, 0.1);
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -92,7 +96,7 @@ body {
         }
         .home-div1 p {
             float: right;;
-            font-size: 25px;
+            font-size: 1.9vw;
             padding-top: 50px;
         }
         .home-div1 a {
@@ -131,7 +135,7 @@ body {
         z-index: 1;
         border: 2px solid rgba(226, 220, 200, 0.9);
         box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.8);
-        min-width: 150px;
+        min-width: 50px;
     }
     
     .my-img2 {
@@ -141,7 +145,7 @@ body {
         right: 11.2%; 
         border: 2px solid rgba(226, 220, 200, 0.9);
         box-shadow: -5px 5px 6px rgba(0, 0, 0, 0.8);
-        min-width: 150px;
+        min-width: 50px;
     }
     .my-img3 {
         width: 20%;
@@ -150,7 +154,7 @@ body {
         right: 10.6%;
         border: 2px solid rgba(226, 220, 200, 0.9);
         box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.8);
-        min-width: 150px;
+        min-width: 50px;
     }
 /* Home */
 
@@ -159,6 +163,7 @@ body {
         display: flex;
         margin: 100px 0 50px 0;
         letter-spacing: 1.1px;
+        overflow: hidden;
     }
     .about-div1 {
         display: flex;;
@@ -166,7 +171,7 @@ body {
         justify-content: center;
     }   
         .about-div1 img {
-            width: 70%;
+            width: 80%;
             height: fit-content;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
         }
@@ -197,13 +202,11 @@ body {
         }
         
     #tab1Content, #tab2Content, #tab3Content {
-        width: 65%;
-        margin-top: 10px;
-        padding: 20px;
-        border-radius: 10px;
-        background-color: rgb(240, 246, 247, 0.1);
+        width: 70%;
+        margin-top: 20px;
+        padding: 0px 0px 0px 15px;
+        border-left: 4px solid rgb(0, 0, 0, 0.5);
         color: rgb(0, 0, 0, 0.7);
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
         font-size: 22px;
         letter-spacing: 2px;
         text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.1);
@@ -241,6 +244,7 @@ body {
         background-color: rgb(0, 0, 0, 0.9);
         padding: 30px 0;
         transform: skewY(-3deg);
+        overflow: hidden;
     }
     .skills-header {
         padding: 10px 0 50px 0;
