@@ -69,6 +69,43 @@ body {
     .menu-icon {
         display: none;
     }
+/* side nav */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 5;
+    font-family: "Lora", sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+/* side nav */
 /* Navigation Bar */
 /* Home */  
     #home {
@@ -78,7 +115,7 @@ body {
         clip-path: polygon(0 0, 100% 0, 100% 85%, 60% 77%, 35% 97%, 0 86%);
         padding-top: 5%;
         overflow: hidden;
-        min-height: 300px;
+        min-height: 320px;
     }
     .home-div1 {
         flex: 1;
@@ -88,7 +125,7 @@ body {
     }
         .home-div1 h1 {
             padding-left: 25px;
-            font-size: max(2.5vw, 18px);
+            font-size: max(2.5vw, 20px);
             border-radius: 10px;
             background-color: rgba(5, 60, 65, 0.1);
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -97,7 +134,7 @@ body {
         }
         .home-div1 p {
             float: right;;
-            font-size: max(1.9vw, 12px);
+            font-size: max(1.8vw, 14px);
             padding-top: 50px;
         }
         .home-div1 a {
@@ -181,7 +218,7 @@ body {
     }   
         .about-div2 h1 {
             font-family: 'Lora';
-            font-size: max(2.5vw, 25px);
+            font-size: max(2.5vw, 30px);
         }
     .about-div2-innerdiv1 {
         display: flex;
@@ -196,6 +233,8 @@ body {
         cursor: pointer;
         border-radius: 5px;
         transition: 0.2s;
+        font-size: max(1.5vw, 16px);
+
     }
     #tab1:hover, #tab2:hover, #tab3:hover {
         transform: scale(1.05);
@@ -208,7 +247,7 @@ body {
         padding: 0px 0px 0px 15px;
         border-left: 4px solid rgb(0, 0, 0, 0.5);
         color: rgb(0, 0, 0, 0.7);
-        font-size: max(1.7vw, 18px);
+        font-size: max(1.7vw, 20px);
         letter-spacing: 2px;
         text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.1);
     }
@@ -263,9 +302,12 @@ body {
         font-family: 'Lora';
         letter-spacing: 2px;
     }
+    .skills-header > p {
+        font-size: max(0.9vw, 16px)
+    }
     .skills-header > h1{
         padding: 30px 0 20px 0;
-        font-size: 50px;
+        font-size: max(3vw, 30px);
     }
     .my-skills {
         transform: skewY(3deg);

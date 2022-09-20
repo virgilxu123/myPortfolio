@@ -7,3 +7,11 @@ function selectTab(tabIndex) {
     //Show the Selected Tab
     document.getElementById('tab' + tabIndex + 'Content').style.display="block";
   }
+
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "40%";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
