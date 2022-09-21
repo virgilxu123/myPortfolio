@@ -47,7 +47,8 @@
     #home {
         display: flex;
         flex-direction: column;
-        clip-path: none;
+        clip-path: polygon(0 0, 100% 0, 100% 98%, 68% 94%, 39% 100%, 0 95%, 0 70%);
+
     }
     .home-div1 {
         display: flex;
