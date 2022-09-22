@@ -112,6 +112,7 @@
     .project1-img img, .project2-img img, .project3-img img {
         float:none;
         margin: 0;
+        width: max(70vw,300px);
     }
     .project1-details, .project2-details, .project3-details {
         padding: 10px;

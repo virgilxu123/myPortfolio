@@ -253,6 +253,7 @@ body {
         font-size: max(1.7vw, 20px);
         letter-spacing: 2px;
         text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.1);
+        font-family: 'montserrat', sans-serif;
     }
     #tab1Content {
         display: block; 
@@ -381,21 +382,21 @@ body {
             display: flex;
             flex-direction: column;
             flex:1;
-            font-family: 'montserrat', sans-serif;
             letter-spacing: 1.5px;
-            line-height: 1.3em;
             justify-content:center;
         }
             .project1-details h3, .project2-details h3, .project3-details h3 {
                 padding-bottom: 20px;
                 font-family: 'Lora';
-                font-size: max(2vw, 20px);
+                font-size: max(2vw, 25px);
                 text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
             }
             .project1-details p, .project1-details li, .project2-details p , .project2-details li, .project3-details p,.project3-details li {
-                font-size: max(1.3vw, 14px);
+                color: rgb(0, 0, 0, 0.7);
+                font-size: max(1.7vw, 20px);
+                letter-spacing: 2px;
                 text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.1);
-                color: rgb(0, 0, 0, 0.9);
+                font-family: 'montserrat', sans-serif;
             }
 /* Projects */
 /* Contact */
@@ -410,7 +411,7 @@ body {
     .contact-div1 > h1, .contact-div1 > p{
         text-align: center;
         padding: 5px;
-        color:rgb(226, 220, 200);
+        color:rgb(226, 220, 200, 0.8);
     }
     .contact-div1 > h1 {
         margin-bottom: 20px;
