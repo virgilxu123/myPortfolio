@@ -91,11 +91,12 @@
             padding: 8px 0 0 0;
         }
         input[type=text]{   
-            width: 200px;
+            width: 250px;
         }
         textarea {
             height: 100px;
-            width: 200px;
+            width: 250px;
+            padding: 5px;
         }
 /* Contact */
     }
