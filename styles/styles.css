@@ -339,6 +339,64 @@ body {
         transform: scale(1.05);
     }
 /* Skills */
+/* Projects */
+    #projects {
+        margin-top: 120px;
+    }
+    #projects > h1 {
+        text-align: center;
+        font-family: 'Lora';
+        text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
+        padding-bottom: 20px;
+        font-size: max(2.5vw, 30px);
+        letter-spacing: 2.5px;
+        font-weight: 900;
+        color: rgb(17, 17, 17, 0.9);
+    }
+    .project1, .project2, .project3 {
+        display: flex;
+        width: 90%;
+        margin: 20px auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
+        padding: 50px 10px;
+        border-radius: 10px;
+    }
+        .project1-img, .project2-img, .project3-img {
+            flex: 1;
+            float: right; 
+        }
+            .project1-img img, .project2-img img, .project3-img img {
+                float: right;
+                margin-right: 50px;
+                width: max(35vw, 250px);
+                border-radius: 5px;
+                border: 2px solid rgb(160, 165, 164);
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
+                cursor: pointer;
+            }
+            .project1-img img:hover, .project2-img img:hover, .project3-img img:hover {
+                transform: scale(1.02);
+            }
+        .project1-details, .project2-details, .project3-details {
+            display: flex;
+            flex-direction: column;
+            flex:1;
+            font-family: 'montserrat', sans-serif;
+            letter-spacing: 1.5px;
+            line-height: 1.3em;
+            justify-content:center;
+        }
+            .project1-details h3, .project2-details h3, .project3-details h3 {
+                padding-bottom: 20px;
+                font-family: 'Lora';
+                font-size: max(2vw, 20px);
+                text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
+            }
+            .project1-details p li, .project2-details p li, .project2-details p li {
+                font-size: max(1.2vw, 14px);
+                text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.1);
+            }
+/* Projects */
 /* Contact */
     #contact {
         overflow: hidden;
@@ -378,7 +436,6 @@ body {
         flex: 1;
         height: 100%;
         padding: 8px 0 0 10px;
-        transition: 0.4s;
     }
     input[type=text]{   
         width: max(25vw, 250px);
