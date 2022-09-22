@@ -84,16 +84,18 @@
         }
         .contact-div2-info {
             align-items:center;
+            padding: 0;
         }
         .contact-div2-message {
             justify-content: center;
+            padding: 8px 0 0 0;
         }
         input[type=text]{   
             width: 200px;
         }
         textarea {
-            height: 80px;
-            width: 300px;
+            height: 100px;
+            width: 200px;
         }
 /* Contact */
     }
