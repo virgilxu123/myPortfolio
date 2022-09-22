@@ -355,7 +355,7 @@ body {
     }
     .contact-div1 > h1 {
         margin-bottom: 20px;
-        font-size: max(2.5vw, 25px);
+        font-size: max(2vw, 25px);
         font-family: 'Lora';
         letter-spacing: 1.5px;
     }
@@ -381,7 +381,7 @@ body {
         transition: 0.4s;
     }
     input[type=text]{   
-        width: 350px;
+        width: max(25vw, 250px);
         padding: 12px 20px;
         margin: 8px 0;
         display: inline-block;
@@ -396,7 +396,7 @@ body {
         border: 1px solid #ccc;
         border-radius: 4px;
         background-color: rgba(46, 75, 72, 0.8);
-        width: 350px;
+        width: max(25vw, 250px);
         height: 158px;
     }
     .contact-div3 {
