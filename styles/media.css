@@ -78,4 +78,22 @@
             margin-bottom: 50px;
         }
 /* About */
+/* Contact */
+        .contact-div2 {
+            flex-direction: column;
+        }
+        .contact-div2-info {
+            align-items:center;
+        }
+        .contact-div2-message {
+            justify-content: center;
+        }
+        input[type=text]{   
+            width: 200px;
+        }
+        textarea {
+            height: 80px;
+            width: 300px;
+        }
+/* Contact */
     }
