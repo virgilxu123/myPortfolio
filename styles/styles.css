@@ -368,7 +368,7 @@ body {
             .project1-img img, .project2-img img, .project3-img img {
                 float: right;
                 margin-right: 50px;
-                width: max(35vw, 250px);
+                width: max(35vw, 300px);
                 border-radius: 5px;
                 border: 2px solid rgb(160, 165, 164);
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
@@ -392,9 +392,10 @@ body {
                 font-size: max(2vw, 20px);
                 text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
             }
-            .project1-details p li, .project2-details p li, .project2-details p li {
-                font-size: max(1.2vw, 14px);
+            .project1-details p, .project1-details li, .project2-details p , .project2-details li, .project3-details p,.project3-details li {
+                font-size: max(1.3vw, 14px);
                 text-shadow: 1px 1px 4px rgb(0, 0, 0, 0.1);
+                color: rgb(0, 0, 0, 0.9);
             }
 /* Projects */
 /* Contact */
