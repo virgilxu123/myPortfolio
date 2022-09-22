@@ -348,7 +348,7 @@ body {
         background-blend-mode:darken;
         
     }
-    .contact-div1 > h1,p{
+    .contact-div1 > h1, .contact-div1 > p{
         text-align: center;
         padding: 5px;
         color:rgb(226, 220, 200);
