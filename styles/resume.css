@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+.resume {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: auto;
+}
+.resume-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+    .resume-left p {
+        line-height: 0.5em;
+    }
+    .left-img img {
+        width: max(15vw, 100px);
+        object-fit: contain;
+    }
+    .left-img {
+        background-color: rgb(0, 0, 0, 0.7);
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        padding: 10px;
+    }
+    .left-contact {
+        flex: 1;
+        background-color: rgb(0, 0, 0, 0.9);
+        margin-top: 0;
+    }
+        .left-contact h2 {
+            font-size: max(1.5vw, 12px);
+            padding-right: 10px;
+            text-align: right;
+            margin: 0;
+            background-color: rgb(255, 215, 0, 0.8);
+            color: rgb(0, 0, 0, 0.9);
+        }
+        .phone, .email, .website, .address {
+            font-size: max(1.04vw, 8px);
+            padding: 5px 10px;
+            text-align: right;
+            color: rgb(240, 248, 255, 0.7);
+        }
+    .left-education {
+        flex: 1;
+        background-color: rgb(0, 0, 0, 0.8);
+    }
+        .left-education h2 {
+            font-size: max(1.5vw, 12px);
+            border-bottom: 5px solid goldenrod;
+            padding-right: 10px;
+            text-align: right;
+            margin: 0;
+            color: rgb(255, 215, 0, 0.9);
+            background-color: rgb(0, 0, 0, 0.9);
+        }
+        .course, .school {
+            font-size: max(1.04vw, 7.5px);
+            padding: 5px 10px;
+            padding-right: 10px;
+            text-align: right;
+            color: rgb(240, 248, 255, 0.8);
+        }
+    .left-skills {
+        flex: 1;
+        background-color: rgb(0, 0, 0, 0.9);
+    }
+        .left-skills h2 {
+            font-size: max(1.5vw, 12px);
+            padding-right: 10px;
+            text-align: right;
+            margin: 0;
+            background-color: rgb(255, 215, 0, 0.8);
+            color: rgb(0, 0, 0, 0.9);
+        }
+        .skill-set {
+            padding: 20px 0 10px 20px;
+            font-size: max(1.04vw, 8px);
+            flex: 1;
+            padding-left: 10px;
+            text-align: left;
+            color: rgb(240, 248, 255, 0.8);
+        }
+.resume-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+    .header {
+        flex: 1;
+        padding: 2vw 0 0 3vw;
+    }
+        .header h1 {
+            letter-spacing: 2px;
+            font-size: max(2.2vw, 14px);
+            line-height: 0.4em;
+        }
+        .header h4 {
+            font-size: max(1.4vw, 8px);
+            line-height: 0.4em;
+            letter-spacing: 2px;
+            padding: 7px;
+            background-color: black;
+            color: goldenrod;
+        }
+        .resume-right h2 {
+            font-size: max(1.4vw, 8px);
+            margin-bottom: 0;
+            padding-bottom: 1vw;
+            margin-left: 3vw;
+            border-bottom: 2px solid #ccc;
+        }
+    .experience {
+        flex: 3;
+        display: flex;
+        margin-left: 3vw;
+    }
+        .job-title {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            border-right: 2px solid #ccc;
+        }
+            .job1 {
+                flex:1;
+            }
+                .job1 p {
+                    font-size: max(1.2vw, 6px);
+                    font-family: "Lora", sans-serif;
+                    font-weight: 500;
+                }
+            .job2 {
+                flex:1;
+            }
+                .job2 p {
+                    font-size: max(1.2vw, 6px);
+                    font-family: "Lora", sans-serif;
+                }
+        .job-description {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+        }
+            .job-description1 {
+                flex: 1;
+                border-bottom: 2px solid #ccc;
+                font-size: max(1.1vw, 8px);
+                padding: 0 2px;
+            }
+            .job-description2 {
+                flex: 1;
+                font-size: max(1.1vw, 8px);
+                padding: 0 2px;
+            }
