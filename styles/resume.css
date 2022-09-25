@@ -149,11 +149,11 @@
             .job-description1 {
                 flex: 1;
                 border-bottom: 2px solid #ccc;
-                font-size: max(1.1vw, 8px);
+                font-size: max(1.2vw, 8px);
                 padding: 0 2px;
             }
             .job-description2 {
                 flex: 1;
-                font-size: max(1.1vw, 8px);
+                font-size: max(1.2vw, 8px);
                 padding: 0 2px;
             }
