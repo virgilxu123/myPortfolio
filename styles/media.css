@@ -67,6 +67,7 @@
         }
         .about-div1 img {
             width: 80%;
+            height: auto;
         }
         .about-div2 {
             margin: 30px 0 0 10%;
@@ -113,6 +114,7 @@
         float:none;
         margin: 0;
         width: max(70vw,300px);
+        height: auto;
     }
     .project1-details, .project2-details, .project3-details {
         padding: 10px;

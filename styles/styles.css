@@ -210,10 +210,12 @@ body {
         display: flex;;
         flex: 1;
         justify-content: center;
+        align-items: center;
     }   
         .about-div1 img {
             width: 80%;
-            height: fit-content;
+            height: 400px;
+            object-fit: cover;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
         }
     .about-div2 {
@@ -363,12 +365,12 @@ body {
         border-radius: 10px;
     }
         .project1-img, .project2-img, .project3-img {
+            display: flex;
             flex: 1;
-            float: right; 
+            align-items: center;
+            justify-content: center;
         }
             .project1-img img, .project2-img img, .project3-img img {
-                float: right;
-                margin-right: 50px;
                 width: max(35vw, 300px);
                 border-radius: 5px;
                 border: 2px solid rgb(160, 165, 164);
