@@ -119,4 +119,24 @@
     .project1-details, .project2-details, .project3-details {
         padding: 10px;
     }
+/* blog */
+    .blog-content {
+        flex-direction: column;
+    }
+    .articles {
+        width: 80vw;
+        margin-bottom: 50px;
+    }
+    .article-content img {
+        width: max(20vw, 100px);
+        object-fit: contain;
+        padding: 1vw;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    .must-reads {
+        padding: 10px;
+        margin: auto;
+    }
+/* blog */
 }

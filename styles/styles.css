@@ -453,6 +453,7 @@ body {
                     transform: rotate(-90deg);
                     border-bottom: 2px solid #034e53;
                     padding: 0 0.5vw;
+                    font-size: max(1vw, 10px);
                 }
             .writer {
                 font-size: max(0.8vw, 8px);
@@ -461,7 +462,7 @@ body {
                 margin:auto;
             }
             .article-link h2 {
-                font-size: max(1.5vw, 10px);
+                font-size: max(1.5vw, 12px);
                 font-family: 'Poly Sans', Arial, Helvetica, sans-serif;
                 font-weight: 900;
                 line-height: 1em;
@@ -492,7 +493,7 @@ body {
             font-size: max(0.8vw, 8px);
         }
         .must-reads h4 {
-            font-size: max(1.5vw, 10px);
+            font-size: max(1.5vw, 14px);
             font-family: 'Poly Sans', Arial, Helvetica, sans-serif;
             cursor: pointer;
             transition: 0.1s;
