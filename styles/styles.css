@@ -224,6 +224,7 @@ body {
         .about-div2 h1 {
             font-family: 'Lora';
             font-size: max(2.5vw, 32px);
+            font-weight: 900;
         }
     .about-div2-innerdiv1 {
         display: flex;
@@ -408,7 +409,7 @@ body {
         color: aliceblue;
         
     }
-    h1 {
+    #blog h1 {
         padding-left: 2vw;
         font-family: 'Poly Sans', Arial, Helvetica, sans-serif;
         font-weight: 900;
